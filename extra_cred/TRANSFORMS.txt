@@ -28,4 +28,6 @@ hrsa_modeled.location
 - cast all county_county_fips_code to integer
 - cast hpsa_geo_id string='POINT' to null
 - cast all hpsa_geo_id to integer
+- inconsistent state names were changed to state abbr values
+- some non_state state values remain such as the virgin islands
 - composite primary key of id, hpsa_geo_id was identified to address id duplicates
